@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /*het kijkt na of de leeftijd gelijk aan of groter is dan 18, en dat het geboorte jaar het cijfer 88 in zich heeft.
+      als het klopt word "great!" in de console gedaan, anders "vos!"
+      
+      de switch statement zorgt voor twee opties, dat het wel of niet klopt.
+      onder deze code bevind de functie getResult, deze heeft als waarde "age" en "birthYear"
+      daaronder staat code dat nakijkt of de leeftijd groter of gelijk staat aan 18, met de operator >=.
+      er word ook gechecked of het geboorte jaar 88 heeft. met includes kan je eigenlijk kijken of bijvoorbeeld en cijfer dat
+      je hebt opgeslagen een bepaald cijfer heeft. dat kan ook met characters.
+      
+      anyways, dus als het klopt kan de functie worden uitgevoerd en word er "great!" in je console geschreven.
+      
+      dat betekend dat als je de leeftijd als 17 opslaat je "vos!" op je scherm te zien krijgt.*/
+
+      const age = 18;
+      switch (true) {
+        case age >= 18:
+          console.log("great!");
+          break;
+        case age >= 12:
+          console.log("bit great!");
+          break;
+        default:
+          console.log("not so great!");
+      }
+
+      if (age >= 18) {
+        console.log("great!");
+      }
+      if (age >= 12) {
+        console.log("bit great!");
+      } else {
+        console.log("not so great!");
+      }
+    </script>
+  </body>
+</html>
